@@ -1,17 +1,14 @@
 // import User from  './components/User'
-import Button from './components/Button'
+// import Button from './components/Button'
+// import UserInfo from './components/UserInfo'
+// import AdminInfo from './components/AdminInfo'
+import Counter from './components/Counter'
 
 function App() {
-  const handleClick = (): void => {
-    alert("Button clicked!");
-  };
-
   return (
     <>
       <h1>React with Typescript</h1>
-      <h2>Button Component Demo</h2>
-      <Button label="Click Me" onClick={handleClick} />
-      <Button label="Disabled Button" onClick={handleClick} disabled={true}/>
+      <Counter />
     </>
   )
 }
