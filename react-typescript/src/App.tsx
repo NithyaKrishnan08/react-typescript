@@ -10,13 +10,15 @@
 // import ContactForm from "./components/ContactForm"
 // import EventHandling from "./components/EventHandling"
 // import CounterReducer from "./components/CounterReducerExercise"
-import CounterReducerExercise from "./components/CounterReducerExercise"
+// import CounterReducerExercise from "./components/CounterReducerExercise"
+// import MyComponent from "./components/MyComponent"
+import UserList from "./components/UserList"
 
 function App() {
   return (
     <>
       <h1>React with Typescript</h1>
-      <CounterReducerExercise />
+      <UserList />
     </>
   )
 }
